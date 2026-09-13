@@ -4,7 +4,7 @@ const Navbar = () => {
 
       <nav className="mx-auto w-full">
   
-        <div className="mx-auto flex max-w-8xl h-[75px] items-center justify-between px-8 sm:px-12">
+        <div className="mx-auto flex max-w-8xl h-[70px] items-center justify-between px-8 sm:px-14">
           <button
             className="flex flex-col gap-1.5 md:hidden"
             aria-label="Toggle menu"

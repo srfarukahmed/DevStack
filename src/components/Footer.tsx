@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className="border-t border-gray-100 bg-white w-full">
-      <div className="mx-auto max-w-7xl px-9 py-12 sm:px-1">
+      <div className="mx-auto max-w-8xl px-9 py-12 sm:px-14">
         <div className="grid grid-cols-1 gap-10 text-center sm:grid-cols-2 sm:text-left lg:grid-cols-4">
           <div>
             <div className="flex items-center justify-center gap-2 sm:justify-start">
@@ -13,7 +13,7 @@ const Footer = () => {
               </h2>
             </div>
 
-            <p className="mx-auto mt-4 max-w-xs text-sm leading-6 text-gray-500 sm:mx-0">
+            <p className="mx-auto  mt-4 max-w-xs text-sm leading-6 text-gray-500 sm:mx-0">
               Curated tools, technologies, and resources for developers
               building modern software.
             </p>
@@ -27,7 +27,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="hidden sm:block">
+          <div className="hidden sm:block ml-15">
             <h3 className="text-xs font-semibold tracking-wide text-slate-900">
               PRODUCT
             </h3>
@@ -38,7 +38,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="hidden sm:block">
+          <div className="hidden sm:block ml-13">
             <h3 className="text-xs font-semibold tracking-wide text-slate-900">
               COMPANY
             </h3>

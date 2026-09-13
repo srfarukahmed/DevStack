@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className=" container mx-auto bg-white">
       <div className="mx-auto flex flex-col md:flex-row min-h-[550px] items-center justify-between px-6 py-16">
-        <div className="w-full max-w-[620px] text-center md:text-left">
+        <div className="w-full max-w-[620px] text-center px-7 md:text-left">
           <h1 className="text-5xl font-bold leading-[1.15] text-slate-900 md:text-6xl">
             Build Your Ideal
           </h1>
@@ -13,13 +13,13 @@ const Hero = () => {
             Development Stack
           </h2>
 
-          <p className="mt-6 max-w-[600px] text-lg leading-7 text-slate-600">
+          <p className="mt-6 max-w-[600px] text-lg leading-7 text-slate-600 sm:px-1">
             Explore frontend, backend, database, and tooling options, compare
             them side by side, and put together the stack that fits your next
             project.
           </p>
 
-          <div className="mt-14 flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
+          <div className="mt-14 flex flex-col sm:flex-row gap-3 justify-center md:justify-start sm:px-1">
             <button className="w-full sm:w-auto rounded-lg bg-gradient-to-r from-orange-500 to-pink-500 px-4 py-3 text-sm font-semibold text-white transition hover:opacity-90">
               Explore Technologies
             </button>
