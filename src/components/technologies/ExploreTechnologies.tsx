@@ -25,7 +25,7 @@ const ExploreTechnologies = ({
       (technology) => technology.id !== technologyId,
     );
     setYourStack(removeTechnology);
-    toast.info("Successfully Remove", {
+    toast.info("Successfully Removed", {
       position: "bottom-right",
       autoClose: 5000,
       hideProgressBar: false,

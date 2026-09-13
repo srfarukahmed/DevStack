@@ -21,7 +21,7 @@ const TechnologyCard = ({
 
   const handleAddToStack = () => {
     setYourStack([...YourStack, technology]);
-    toast.success("Successfully Add", {
+    toast.success("Successfully Added", {
       position: "bottom-right",
       autoClose: 5000,
       hideProgressBar: false,
