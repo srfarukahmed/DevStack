@@ -3,8 +3,9 @@ import { Suspense } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import ExploreTechnologies from "./components/technologies/ExploreTechnologies";
-import type { ITechnologyType } from "./types/TechnologyType"
-import Loaders from "./components/Loaders"
+import type { ITechnologyType } from "./types/TechnologyType";
+import Loaders from "./components/Loaders";
+import Footer from "./components/Footer";
 
 const TechnologyPromise = async (): Promise<ITechnologyType[]> => {
   const res = await fetch("/Technologies.json");
@@ -20,7 +21,7 @@ const App = () => {
       <Suspense fallback={<Loaders />}>
       <ExploreTechnologies TechnologyPromise={TechnologyPromise()} />
       </Suspense>
-      
+      <Footer />
     </div>
   );
 };
