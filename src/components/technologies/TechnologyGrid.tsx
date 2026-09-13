@@ -19,10 +19,10 @@ const TechnologyGrid = ({
 }: TechnologyGridProps) => {
   return (
     <div className="  ">
-      <h1 className="text-2xl font-bold text-slate-900 sm:text-3xl">
+      <h1 className="ml-8 text-2xl font-bold text-slate-900 sm:text-3xl">
         Explore the <span className="text-pink-600">Technologies</span>
       </h1>
-      <p className="mt-1  text-sm text-gray-500">
+      <p className="ml-8  mt-1  text-sm text-gray-500">
         Pick one technology per category to build your ideal stack.
       </p>
 
