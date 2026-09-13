@@ -1,8 +1,10 @@
 const Navbar = () => {
   return (
     <div className=" sticky top-0 z-50 border-b border-gray-100 bg-white">
-      <nav className="container mx-auto">
-        <div className="mx-auto flex h-[75px] items-center justify-between px-4 sm:px-6">
+
+      <nav className="mx-auto w-full">
+  
+        <div className="mx-auto flex max-w-8xl h-[75px] items-center justify-between px-8 sm:px-12">
           <button
             className="flex flex-col gap-1.5 md:hidden"
             aria-label="Toggle menu"
