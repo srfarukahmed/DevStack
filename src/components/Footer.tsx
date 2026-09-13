@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <footer className="border-t container mx-auto border-gray-100 bg-white">
-      <div className=" max-w-7xl px-4 py-12 sm:px-6">
+    <footer className="border-t border-gray-100 bg-white w-full">
+      <div className="mx-auto max-w-7xl px-9 py-12 sm:px-1">
         <div className="grid grid-cols-1 gap-10 text-center sm:grid-cols-2 sm:text-left lg:grid-cols-4">
           <div>
             <div className="flex items-center justify-center gap-2 sm:justify-start">
@@ -19,11 +19,11 @@ const Footer = () => {
             </p>
 
             <div className="mt-4 flex items-center justify-center gap-2 text-sm font-medium text-slate-900 sm:justify-start sm:gap-5">
-              <a href="#">GitHub</a>
+              <a href="https://github.com/srfarukahmed/DevStack">GitHub</a>
               <span className="text-gray-300 sm:hidden">•</span>
               <a href="#">Twitter</a>
               <span className="text-gray-300 sm:hidden">•</span>
-              <a href="#">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/faruk-ahmed-058921265/">LinkedIn</a>
             </div>
           </div>
 
@@ -60,7 +60,8 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-10 flex flex-col items-center gap-4 border-t border-gray-100 pt-6 sm:flex-row sm:justify-between">
+      
+        <div className="mt-10 flex flex-col items-center gap-4 border-t border-gray-200 pt-6 sm:flex-row sm:justify-between">
           <p className="text-sm text-gray-400">
             © 2026 Dev Stack. All rights reserved.
           </p>
